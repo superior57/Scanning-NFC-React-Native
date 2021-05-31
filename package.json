@@ -1,0 +1,40 @@
+{
+    "name": "react-native-rfid-nfc-scanner",
+    "description": "A simplified, expanded and unified NFC scanner plugin for react native.",
+    "license": "MIT",
+    "homepage": "https://github.com/talentedexpert0057/Scanning-NFC-React-Native",
+    "version": "1.2.0",
+    "main": "index.js",
+    "keywords": [
+        "react-native",
+        "nfc",
+        "ndef",
+        "rfid",
+        "nfc-scanner",
+        "nfc-reader",
+        "react",
+        "native"
+    ],
+    "bugs": {
+        "url": "https://github.com/talentedexpert0057/Scanning-NFC-React-Native"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/talentedexpert0057/Scanning-NFC-React-Native"
+    },
+    "devDependencies": {
+        "react-native": "0.40.0"
+    },
+    "peerDependencies": {
+        "react-native": ">=0.40.0"
+    },
+    "nativePackage": true,
+    "author": "Joel Diaz",
+    "contributors": [{
+        "name": "Joel Diaz",
+        "url": "https://github.com/talentedexpert0057"
+    }],
+    "scripts": {
+        "podInstall": "cd ios && bundle exec pod install"
+    }
+}
